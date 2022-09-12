@@ -1,0 +1,131 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+body {
+     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.titulo {
+     font-size: 55px;
+     text-transform: uppercase;
+     letter-spacing: 7px;
+}
+
+.galeria img {
+     box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+     border-radius: 15px;
+}
+
+.materialbox-caption {
+     bottom: 30px;
+     right: 0;
+     width: 40%;
+     height: auto;
+     padding: 10px;
+     margin: auto;
+     background: #000;
+     box-shadow: 5px 5px #fff;
+     font-size: 20px;
+     color: #fff;
+     line-height: 28px;
+}
+
+.galeria .col {
+     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+     .materialbox-caption {
+          width: 90%;
+     }
+}
+
+@media screen and (max-width: 992px){
+     .materialbox-caption {
+          width: 70%;
+     }
+}
+
+/* NUEVO BOTÓN From uiverse.io by @Allyhere */
+.btn-donate {
+     --clr-font-main: hsla(0 0% 20% / 100);
+     --btn-bg-1: #e75858;
+     --btn-bg-2: rgb(253, 60, 60);
+     --btn-bg-color: hsla(360 100% 100% / 1);
+     --radii: 0.5em;
+     cursor: pointer;
+     padding: 0.9em 1.4em;
+     min-width: 120px;
+     min-height: 44px;
+     font-size: var(--size, 2rem);
+     font-family: "Segoe UI", system-ui, sans-serif;
+     font-weight: 500;
+     transition: 0.8s;
+     background-size: 280% auto;
+     background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+     border: none;
+     border-radius: var(--radii);
+     color: var(--btn-bg-color);
+     box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+   }
+   
+   .btn-donate:hover {
+     background-position: right top;
+   }
+   
+   .btn-donate:is(:focus, :focus-within,:active) {
+     outline: none;
+     box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+   }
+   
+   @media (prefers-reduced-motion: reduce) {
+     .btn-donate {
+       transition: linear;
+     }
+   }
+  /*=====================================
+  FOOTER STYLES 
+    ===================================*/
+#footer-sec {
+     background: #296F56;
+     color: #fff;
+     padding: 20px;
+ }
+ 
+     #footer-sec i {
+         margin-right: 10px;
+     }
+ 
+     #footer-sec span {
+         font-size: 20px;
+         color: #FF4F4F;
+     }
+ 
+     #footer-sec small {
+         display: table-cell;
+         color: #000;
+         font-size: 12px;
+     }
+ 
+     #footer-sec p {
+         border-right: 1px solid #296F56;
+         padding-right: 10px;
+     }
+ 
+     #footer-sec .media-heading {
+         color: #fff;
+         font-size: 14px;
+     }
+ 
+ #blog-footer-div {
+     border-right: 1px solid #296F56;
+     padding-right: 10px;
+ }
+ 
+ #footser-end {
+     text-align: right;
+     background: linear-gradient(220.55deg, #0c0c0c 0%, #4b4343 100%);
+     color: #fff;
+     padding: 10px;
+ } 
